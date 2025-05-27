@@ -1,0 +1,40 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="url.css" />
+    <title>URL Shortner</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="heading_text">
+        <h1 class="heading">Shortify</h1>
+        <p class="desc">
+         Shortify is an efficient and easy to use URL Shortening service that streamlines your online experience.
+        </p>
+      </div>
+
+      <div class="url_shortner_container">
+        <div class="input_container">
+          <i class="ri-links-line"></i>
+          <input type="url" placeholder="Enter the link" class="inputURL" />
+          <button class="shortBtn">Shortner Now!</button>
+        </div>
+      </div>
+
+      <div class="result_container">
+        <div class="loader" id="loader" style="display: none;"></div>
+        <span class="shortenedURL" id="shortenedURL"></span>
+        <button class="copyBtn" id="copyBtn" style="display: none;">Copy</button>
+      </div>
+    </div>
+
+    <script src="url.js"></script>
+  </body>
+</html>
